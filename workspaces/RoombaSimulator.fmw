@@ -1,0 +1,1319 @@
+#! <?xml version="1.0" encoding="utf-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    C:\fmeid\install\fme.exe C:\Work\2015-05-01-inodz-lego-mindstorms\roombasimulator.fmw
+#    
+#    
+#! WARN_INVALID_XFORM_PARAM="Yes"
+#! FME_DOCUMENT_GUID="3130191b-8d51-4f14-bdb9-d45afba33241"
+#! LAST_SAVE_BUILD="FME(R) 2016.0.0.0 (20150426 - Build 16014 - WIN32)"
+#! MAX_LOG_FEATURES="200"
+#! FME_GEOMETRY_HANDLING="Enhanced"
+#! DESTINATION="NONE"
+#! IGNORE_READER_FAILURE="No"
+#! ATTR_TYPE_ENCODING="SDF"
+#! HISTORY=""
+#! BEGIN_TCL=""
+#! DESCRIPTION=""
+#! FME_SERVER_SERVICES=""
+#! SHOW_ANNOTATIONS="true"
+#! DESTINATION_ROUTING_FILE=""
+#! REQUIREMENTS_KEYWORD=""
+#! END_TCL=""
+#! LAST_SAVE_DATE="2015-05-28T16:47:02"
+#! LEGAL_TERMS_CONDITIONS=""
+#! SOURCE_ROUTING_FILE=""
+#! TITLE=""
+#! PYTHON_COMPATIBILITY="Automatic"
+#! FME_STROKE_MAX_DEVIATION="0"
+#! REDIRECT_TERMINATORS="NONE"
+#! ZOOM_SCALE="100"
+#! SOURCE="NONE"
+#! LOG_FILE=""
+#! REQUIREMENTS=""
+#! FME_REPROJECTION_ENGINE="FME"
+#! CATEGORY=""
+#! LOG_MAX_PRECISION="Yes"
+#! WORKSPACE_VERSION="1"
+#! VIEW_POSITION="-4593.05 1323.01"
+#! DOC_EXTENTS="2524 18.5"
+#! SHOW_INFO_NODES="true"
+#! BEGIN_PYTHON=""
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! USAGE=""
+#! END_PYTHON=""
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! FME_DOCUMENT_PRIORGUID="6fb07304-240c-4fe0-b471-dcb489fe8836,b7f6f187-3dd2-428e-85eb-f521e0fa3c18,47965008-a823-4ffc-884e-659abe72d3de,2005c052-f179-4e00-b9fc-bbcbc32b6f69,de6c14ec-c542-4579-8d69-2b1f1c33391b,31fb7579-65d0-4373-b52d-edd7df3cade5,726ddd8e-b77d-4fa8-a7e3-6fa679aebedd"
+#! FME_BUILD_NUM="16014"
+#! DOC_TOP_LEFT="-1138.51 -258.002"
+#! PASSWORD=""
+#! >
+#! <DATASETS>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#! IDENTIFIER="1"
+#! TYPE="Creator"
+#! VERSION="5"
+#! POSITION="-1138.51 -239.502"
+#! BOUNDING_RECT="-1138.51 -239.502 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="16014"
+#! >
+#! <OUTPUT_FEAT NAME="CREATED"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="2D Coordinate List"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
+#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="0 0"/>
+#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="6"
+#! TYPE="SubDocumentTransformer"
+#! VERSION="0"
+#! POSITION="235.494 -239.502"
+#! BOUNDING_RECT="235.494 -239.502 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="16014"
+#! >
+#! <OUTPUT_FEAT NAME="Output"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_proximity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MAX_PROXIMITY_BEFORE_TURN" PARM_VALUE="20"/>
+#! <XFORM_PARM PARM_NAME="_SLOPE_X" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_slope_x&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="MAX_MOVES" PARM_VALUE="7"/>
+#! <XFORM_PARM PARM_NAME="_SLOPE_Y" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_slope_y&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="_NUM_MOVES" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_num_moves&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="_ROTATION_ANGLE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_rotation_angle&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="RATIO_DEGRESS_OF_MOTOR_ROTATION_TO_SPIN" PARM_VALUE="6.05"/>
+#! <XFORM_PARM PARM_NAME="SUB_DOC_NAME" PARM_VALUE="RoombaSimulator"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="RoombaSimulator"/>
+#! <XFORM_PARM PARM_NAME="_NUM_SPINS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_num_spins&lt;closeparen&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="4"
+#! TYPE="Logger"
+#! VERSION="3"
+#! POSITION="789.494 -258.002"
+#! BOUNDING_RECT="789.494 -258.002 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="false"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="16014"
+#! >
+#! <OUTPUT_FEAT NAME="LOGGED"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_proximity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#! <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Logger"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="11"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="-500.262 -239.502"
+#! BOUNDING_RECT="-500.262 -239.502 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="16014"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="_num_moves,0,_num_spins,0,_slope_x,1,_slope_y,0,_rotation_angle,0"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="10"
+#! TYPE="Inspector"
+#! VERSION="3"
+#! POSITION="1385.49 -258.002"
+#! BOUNDING_RECT="1385.49 -258.002 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="false"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="16014"
+#! >
+#! <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#! <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#! <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Inspector"/>
+#! <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#! IDENTIFIER="5"
+#! SOURCE_NODE="6"
+#! TARGET_NODE="4"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="13"
+#! SOURCE_NODE="11"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="14"
+#! SOURCE_NODE="4"
+#! TARGET_NODE="10"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="15"
+#! SOURCE_NODE="1"
+#! TARGET_NODE="11"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! <SUBDOCUMENT
+#! NAME="RoombaSimulator"
+#! HISTORY=""
+#! IS_VISIBLE="true"
+#! FME_DOCUMENT_PRIORGUID=""
+#! DOC_TOP_LEFT="-389.995 -2034.03"
+#! FME_PROCESS_GROUPS_ORDERED="No"
+#! DESCRIPTION=""
+#! REQUIREMENTS_KEYWORD=""
+#! SUPPRESS_UPGRADE="false"
+#! XFORM_DEPRECATED="No"
+#! ZOOM_SCALE="100"
+#! FME_DOCUMENT_GUID=""
+#! VIEW_POSITION="-420.004 153.002"
+#! USAGE=""
+#! DOC_DYNAMIC_INPUT_ATTRS="0"
+#! TITLE="RoombaSimulator"
+#! FME_PROCESS_GROUP_BY=""
+#! CATEGORY=""
+#! DOC_EXTENTS="6786.19 1857.02"
+#! LEGAL_TERMS_CONDITIONS=""
+#! FME_PROCESS_COUNT="NO_PARALLELISM"
+#! REQUIREMENTS=""
+#! >
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI OPTIONAL TEXT_EDIT_OR_NUM_OR_ATTR MAX_PROXIMITY_BEFORE_TURN Maximum Proximity Before Turning:"
+#! DEFAULT_VALUE="30"
+#! IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI TEXT_EDIT_OR_NUM_OR_ATTR _NUM_MOVES Num Moves:"
+#! DEFAULT_VALUE="&lt;at&gt;Value&lt;openparen&gt;_num_moves&lt;closeparen&gt;"
+#! IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI OPTIONAL TEXT_EDIT_OR_NUM_OR_ATTR MAX_MOVES Maximum Number of Moves:"
+#! DEFAULT_VALUE="20"
+#! IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI TEXT_EDIT_OR_NUM_OR_ATTR _SLOPE_X Slope X:"
+#! DEFAULT_VALUE="&lt;at&gt;Value&lt;openparen&gt;_slope_x&lt;closeparen&gt;"
+#! IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI TEXT_EDIT_OR_NUM_OR_ATTR _SLOPE_Y Slope Y:"
+#! DEFAULT_VALUE="&lt;at&gt;Value&lt;openparen&gt;_slope_y&lt;closeparen&gt;"
+#! IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI TEXT_EDIT_OR_NUM_OR_ATTR _ROTATION_ANGLE Rotation Angle:"
+#! DEFAULT_VALUE="&lt;at&gt;Value&lt;openparen&gt;_rotation_angle&lt;closeparen&gt;"
+#! IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI FLOAT_OR_ATTR RATIO_DEGRESS_OF_MOTOR_ROTATION_TO_SPIN Ratio between degress of motor rotation and spin:"
+#! DEFAULT_VALUE="6.67"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI TEXT_EDIT_OR_NUM_OR_ATTR _NUM_SPINS Num Spins:"
+#! DEFAULT_VALUE="&lt;at&gt;Value&lt;openparen&gt;_num_spins&lt;closeparen&gt;"
+#! IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#! IDENTIFIER="16"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;We&apos;re too close to a wall to continue moving.&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Spin in a random direction and try again.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="1888.02 -896.508"
+#! TOP_LEFT="1888.02 -896.508"
+#! BOTTOM_RIGHT="1887.02 -895.508"
+#! BOUNDING_RECT="1888.02 -896.508 -1 -1"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="false"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.192157"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#! IDENTIFIER="21"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;We&apos;ve reached the maximum distance we want&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;to travel. We&apos;re done.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="1873.03 -315.002"
+#! TOP_LEFT="1873.03 -315.002"
+#! BOTTOM_RIGHT="2623.03 -365.002"
+#! BOUNDING_RECT="1873.03 -315.002 750 50"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.192157"
+#! SIZE_POLICY="10"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#! IDENTIFIER="28"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;As far as we can tell, everything is a-ok.&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Keep on moving.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="1846.02 -1602.02"
+#! TOP_LEFT="1846.02 -1602.02"
+#! BOTTOM_RIGHT="2596.02 -1652.02"
+#! BOUNDING_RECT="1846.02 -1602.02 750 50"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.192157"
+#! SIZE_POLICY="10"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="0"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! <BOOKMARK
+#! IDENTIFIER="15"
+#! NAME="Spin"
+#! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#! TOP_LEFT="1769.02 -750.007"
+#! BOTTOM_RIGHT="4287.04 -1326.01"
+#! BOUNDING_RECT="1769.02 -750.007 2518.02 576.006"
+#! STICKY="true"
+#! COLOUR="0.956863,0.266667,0.0666667"
+#! CONTENTS="16 55 41 40 56 46 42 54 "
+#! />
+#! <BOOKMARK
+#! IDENTIFIER="22"
+#! NAME="Finished"
+#! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#! TOP_LEFT="1774.02 -177.001"
+#! BOTTOM_RIGHT="3009.03 -690.007"
+#! BOUNDING_RECT="1774.02 -177.001 1235.01 513.006"
+#! STICKY="true"
+#! COLOUR="0.937255,0.431373,0.254902"
+#! CONTENTS="21 18 "
+#! />
+#! <BOOKMARK
+#! IDENTIFIER="29"
+#! NAME="Move Forward!"
+#! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#! TOP_LEFT="1769.02 -1440.02"
+#! BOTTOM_RIGHT="4479.04 -2034.03"
+#! BOUNDING_RECT="1769.02 -1440.02 2710.02 594.005"
+#! STICKY="true"
+#! COLOUR="0.584314,0.803922,0.294118"
+#! CONTENTS="34 27 35 38 37 28 52 61 39 "
+#! />
+#! <BOOKMARK
+#! IDENTIFIER="39"
+#! NAME="Add new point"
+#! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#! TOP_LEFT="3225.66 -1698.01"
+#! BOTTOM_RIGHT="4366.1 -1994.01"
+#! BOUNDING_RECT="3225.66 -1698.01 1140.44 296"
+#! STICKY="true"
+#! COLOUR="0.447059,0.886275,0.137255"
+#! CONTENTS="34 35 38 "
+#! />
+#! <BOOKMARK
+#! IDENTIFIER="53"
+#! NAME="Update list of operations"
+#! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#! TOP_LEFT="4651.55 -1243.01"
+#! BOTTOM_RIGHT="6296.55 -1479.01"
+#! BOUNDING_RECT="4651.55 -1243.01 1645 236"
+#! STICKY="true"
+#! COLOUR="0.247059,0.831373,0.219608"
+#! CONTENTS="50 32 48 45 47 "
+#! />
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#! IDENTIFIER="19"
+#! TYPE="TestFilter"
+#! VERSION="1"
+#! POSITION="838.508 -608.006"
+#! BOUNDING_RECT="838.508 -608.006 571.506 71"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="16014"
+#! >
+#! <OUTPUT_FEAT NAME="ReachedMaxMoves"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_proximity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="CloseToWall"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_proximity" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <OUTPUT_FEAT NAME="Move"/>
+#! <FEAT_COLLAPSED COLLAPSED="2"/>
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_proximity" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_num_moves&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;&lt;gt&gt;=&lt;space&gt;$(MAX_MOVES)&lt;quote&gt;,ReachedMaxMoves,BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_proximity&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;&lt;lt&gt;=&lt;space&gt;$(MAX_PROXIMITY_BEFORE_TURN)&lt;quote&gt;,CloseToWall"/>
+#! <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="Move"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TestFilter"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="27"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="2652.03 -1767.01"
+#! BOUNDING_RECT="2652.03 -1767.01 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="16014"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_proximity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="operation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="_num_moves,&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_num_moves&lt;closeparen&gt;+1&lt;closeparen&gt;,operation,MOVE"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="35"
+#! TYPE="CoordinateExtractor"
+#! VERSION="1"
+#! POSITION="3299.66 -1788.01"
+#! BOUNDING_RECT="3299.66 -1788.01 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="16014"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_proximity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="operation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="Z_ATTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="IND" PARM_VALUE="-1"/>
+#! <XFORM_PARM PARM_NAME="Y_ATTR" PARM_VALUE="_y"/>
+#! <XFORM_PARM PARM_NAME="Z_DEFAULT" PARM_VALUE="-9999"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="X_ATTR" PARM_VALUE="_x"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="CoordinateExtractor"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="34"
+#! TYPE="VertexCreator"
+#! VERSION="1"
+#! POSITION="3886.11 -1788.01"
+#! BOUNDING_RECT="3886.11 -1788.01 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="16014"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_proximity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="operation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_proximity" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="operation" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_x" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_y" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE_NAME" PARM_VALUE="Add Point"/>
+#! <XFORM_PARM PARM_NAME="YVAL" PARM_VALUE="@Value(_y)+@Value(_slope_y)"/>
+#! <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ZVAL" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XVAL" PARM_VALUE="@Value(_x)+@Value(_slope_x)"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="VertexCreator"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="42"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="2609.65 -1099.01"
+#! BOUNDING_RECT="2609.65 -1099.01 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="16014"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_proximity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_amount_to_rotate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_direction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="_rotation_angle,&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_rotation_angle&lt;closeparen&gt;&lt;space&gt;+&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;_amount_to_rotate&lt;closeparen&gt;&lt;closeparen&gt;,_rotation_angle,&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_rotation_angle&lt;closeparen&gt;&lt;space&gt;-&lt;space&gt;&lt;at&gt;int&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_rotation_angle&lt;closeparen&gt;&lt;space&gt;&lt;solidus&gt;&lt;space&gt;360&lt;closeparen&gt;&lt;space&gt;*&lt;space&gt;360&lt;closeparen&gt;,_slope_x,&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;cos&lt;openparen&gt;&lt;at&gt;degToRad&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_rotation_angle&lt;closeparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;,_slope_y,&lt;at&gt;sin&lt;openparen&gt;&lt;at&gt;degToRad&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_rotation_angle&lt;closeparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;,_num_spins,&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_num_spins&lt;closeparen&gt;+1&lt;closeparen&gt;,_direction,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;LEFT&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;_amount_to_rotate&lt;closeparen&gt; &gt; 180&apos;RIGHT&apos;FME_NUM_CONDITIONS2___&quot;,_amount_to_rotate,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;_amount_to_rotate&lt;closeparen&gt; &gt; 180&apos;&lt;at&gt;Evaluate&lt;openparen&gt;360-&lt;at&gt;Value&lt;openparen&gt;_amount_to_rotate&lt;closeparen&gt;&lt;closeparen&gt;&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="40"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="2019.02 -1099.01"
+#! BOUNDING_RECT="2019.02 -1099.01 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="16014"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_proximity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_amount_to_rotate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="_amount_to_rotate,&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;rand&lt;openparen&gt;&lt;closeparen&gt;*360&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="32"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4725.55 -1333.01"
+#! BOUNDING_RECT="4725.55 -1333.01 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="16014"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_proximity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_amount_to_rotate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_direction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="operation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_operation_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="_operation_index,&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_num_moves&lt;closeparen&gt;+&lt;at&gt;Value&lt;openparen&gt;_num_spins&lt;closeparen&gt;-1&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="45"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="5262.55 -1333.01"
+#! BOUNDING_RECT="5262.55 -1333.01 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="16014"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_proximity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_amount_to_rotate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_direction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="operation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_operation_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_operation_attr_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="_operation_attr_name,_operations&lt;opencurly&gt;&lt;at&gt;Value&lt;openparen&gt;_operation_index&lt;closeparen&gt;&lt;closecurly&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_5"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="48"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="5816.55 -1333.01"
+#! BOUNDING_RECT="5816.55 -1333.01 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="16014"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_proximity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_amount_to_rotate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_direction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="operation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_operation_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_operation_attr_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_operation_attr_name&lt;closeparen&gt;,&lt;at&gt;Value&lt;openparen&gt;operation&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_6"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="54"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="3174.03 -1099.01"
+#! BOUNDING_RECT="3174.03 -1099.01 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="16014"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_proximity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_amount_to_rotate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_direction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="operation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="operation,SPIN&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;_direction&lt;closeparen&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;_amount_to_rotate&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_7"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="49"
+#! TYPE="LegoMindstormsPropertyExtractor"
+#! VERSION="0"
+#! POSITION="242.256 -636.506"
+#! BOUNDING_RECT="242.256 -636.506 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="16014"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_proximity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MOTORA_GROUP" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="SENSOR3_TOUCH_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="SENSOR2_PROXIMITY_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR2_SYMBOL" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR1_REFLECTED_LIGHT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR4_REFLECTED_LIGHT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR3_BEACON_PROXIMITY_ATTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SENSOR1_AMBIENT_LIGHT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR1_BEACON_PROXIMITY_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MOTORD_RESET_TACHO" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="SENSOR4_COLOR_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MOTORD_TACHO_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR4_PRESSED_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR2_BEACON_PROXIMITY_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR4_COLOR_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR4_PROXIMITY_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR1_GROUP" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="SENSOR2_REMOTE_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MOTORD_SPEED" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR4_AMBIENT_LIGHT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR4_IR_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MOTORB_RUNNING" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR1_SYMBOL" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR3_PRESSED_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR1_TOUCH_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MOTORB_GROUP" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="MOTORA_TACHO_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MOTORB_RESET_TACHO" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="MOTORA_SPEED" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR1_COLOR_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR1_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR2_COLOR_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MOTOR_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SENSOR3_IR_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#! <XFORM_PARM PARM_NAME="SENSOR2_REFLECTED_LIGHT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="LegoMindstormsPropertyExtractor"/>
+#! <XFORM_PARM PARM_NAME="SENSOR2_GROUP" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="SENSOR2_PRESSED_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR2_IR_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR4_TOUCH_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR2_AMBIENT_LIGHT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR2_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MOTORD_RUNNING" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR1_IR_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR4_SYMBOL" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR1_PRESSED_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MOTORA_RUNNING" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR3_REMOTE_ATTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SENSOR1_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MOTORB_TACHO_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MOTORB_SPEED" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR3_PROXIMITY_ATTR" PARM_VALUE="_proximity"/>
+#! <XFORM_PARM PARM_NAME="SENSOR2_COLOR_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR3_NAME" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SENSOR1_PROXIMITY_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR2_TOUCH_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR3_GROUP" PARM_VALUE="YES"/>
+#! <XFORM_PARM PARM_NAME="MOTORC_GROUP" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="MOTORC_RESET_TACHO" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="SENSOR2_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR3_COLOR_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="SENSOR3_SYMBOL" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SENSOR4_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR3_REFLECTED_LIGHT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR1_REMOTE_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MOTORC_RUNNING" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MOTORC_TACHO_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR3_AMBIENT_LIGHT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR3_TYPE" PARM_VALUE="IR"/>
+#! <XFORM_PARM PARM_NAME="SENSOR3_COLOR_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MOTORA_RESET_TACHO" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="SENSOR4_GROUP" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="MOTORD_GROUP" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="SENSOR1_COLOR_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MOTORC_SPEED" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR4_REMOTE_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR4_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SENSOR4_BEACON_PROXIMITY_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="41"
+#! TYPE="LegoMindstormsVehicleMover"
+#! VERSION="0"
+#! POSITION="3778.79 -1099.01"
+#! BOUNDING_RECT="3778.79 -1099.01 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="16014"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_proximity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_amount_to_rotate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_direction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="operation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SPEED" PARM_VALUE="50"/>
+#! <XFORM_PARM PARM_NAME="DURATION_TYPE" PARM_VALUE="ROTATIONS"/>
+#! <XFORM_PARM PARM_NAME="RIGHT_MOTOR" PARM_VALUE="B"/>
+#! <XFORM_PARM PARM_NAME="LEFT_MOTOR" PARM_VALUE="C"/>
+#! <XFORM_PARM PARM_NAME="REVERSE_RIGHT" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="MOVEMENT_TYPE" PARM_VALUE="SPIN"/>
+#! <XFORM_PARM PARM_NAME="TURN_RATIO" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MOTOR_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="DEGREES_OF_ROTATION" PARM_VALUE="@Value(_amount_to_rotate)*$(RATIO_DEGRESS_OF_MOTOR_ROTATION_TO_SPIN)"/>
+#! <XFORM_PARM PARM_NAME="REVERSE_LEFT" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="DIRECTION" PARM_VALUE="@Value(_direction)"/>
+#! <XFORM_PARM PARM_NAME="TIME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="LegoMindstormsVehicleMover"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="52"
+#! TYPE="LegoMindstormsVehicleMover"
+#! VERSION="0"
+#! POSITION="2019.02 -1788.01"
+#! BOUNDING_RECT="2019.02 -1788.01 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="16014"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_num_moves" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_proximity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SPEED" PARM_VALUE="50"/>
+#! <XFORM_PARM PARM_NAME="DURATION_TYPE" PARM_VALUE="TIME"/>
+#! <XFORM_PARM PARM_NAME="RIGHT_MOTOR" PARM_VALUE="B"/>
+#! <XFORM_PARM PARM_NAME="LEFT_MOTOR" PARM_VALUE="C"/>
+#! <XFORM_PARM PARM_NAME="REVERSE_RIGHT" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="MOVEMENT_TYPE" PARM_VALUE="STRAIGHT"/>
+#! <XFORM_PARM PARM_NAME="TURN_RATIO" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MOTOR_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="DEGREES_OF_ROTATION" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="REVERSE_LEFT" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="DIRECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TIME" PARM_VALUE="1"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="LegoMindstormsVehicleMover_2"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <SUBDOCUMENT_IOS>
+#! <SUBDOCUMENT_IO
+#! IDENTIFIER="4"
+#! NAME="LegoMindstormsMover_Input"
+#! POSITION="-389.995 -636.506"
+#! BOUNDING_RECT="-389.995 -636.506 -1 -1"
+#! COLLAPSED="false"
+#! PUBLISHED="true"
+#! IS_SOURCE="true"
+#! ATTR_MODE="0"
+#! >
+#! <XFORM_ATTR ATTR_NAME="_num_moves" ATTR_VALUE="$(_NUM_MOVES)" />
+#! <XFORM_ATTR ATTR_NAME="_slope_x" ATTR_VALUE="$(_SLOPE_X)" />
+#! <XFORM_ATTR ATTR_NAME="_slope_y" ATTR_VALUE="$(_SLOPE_Y)" />
+#! <XFORM_ATTR ATTR_NAME="_rotation_angle" ATTR_VALUE="$(_ROTATION_ANGLE)" />
+#! <XFORM_ATTR ATTR_NAME="_num_spins" ATTR_VALUE="$(_NUM_SPINS)" />
+#! </SUBDOCUMENT_IO>
+#! <SUBDOCUMENT_IO
+#! IDENTIFIER="13"
+#! NAME="LegoMindstormsMover_Input"
+#! POSITION="6396.19 -1393.01"
+#! BOUNDING_RECT="6396.19 -1393.01 -1 -1"
+#! COLLAPSED="true"
+#! IS_SOURCE="loop"
+#! ATTR_MODE="0"
+#! >
+#! </SUBDOCUMENT_IO>
+#! <SUBDOCUMENT_IO
+#! IDENTIFIER="18"
+#! NAME="Output"
+#! POSITION="1873.03 -498.505"
+#! BOUNDING_RECT="1873.03 -498.505 -1 -1"
+#! COLLAPSED="true"
+#! IS_SOURCE="false"
+#! ATTR_MODE="0"
+#! >
+#! </SUBDOCUMENT_IO>
+#! </SUBDOCUMENT_IOS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#! IDENTIFIER="31"
+#! SOURCE_NODE="19"
+#! TARGET_NODE="18"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="38"
+#! SOURCE_NODE="35"
+#! TARGET_NODE="34"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="37"
+#! SOURCE_NODE="27"
+#! TARGET_NODE="35"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="44"
+#! SOURCE_NODE="19"
+#! TARGET_NODE="40"
+#! SOURCE_PORT_DESC="fo 1"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="46"
+#! SOURCE_NODE="40"
+#! TARGET_NODE="42"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="33"
+#! SOURCE_NODE="34"
+#! TARGET_NODE="32"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="47"
+#! SOURCE_NODE="32"
+#! TARGET_NODE="45"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="50"
+#! SOURCE_NODE="45"
+#! TARGET_NODE="48"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="51"
+#! SOURCE_NODE="48"
+#! TARGET_NODE="13"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="56"
+#! SOURCE_NODE="42"
+#! TARGET_NODE="54"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="58"
+#! SOURCE_NODE="4"
+#! TARGET_NODE="49"
+#! SOURCE_PORT_DESC="0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="59"
+#! SOURCE_NODE="49"
+#! TARGET_NODE="19"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="55"
+#! SOURCE_NODE="54"
+#! TARGET_NODE="41"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="57"
+#! SOURCE_NODE="41"
+#! TARGET_NODE="32"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="60"
+#! SOURCE_NODE="19"
+#! TARGET_NODE="52"
+#! SOURCE_PORT_DESC="fo 2"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS="1725 -1824"
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="61"
+#! SOURCE_NODE="52"
+#! TARGET_NODE="27"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! </SUBDOCUMENT>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+#! 
+FME_PYTHON_VERSION 27
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE NULL
+READER_KEYWORD NULL_SOURCE
+NULL_SOURCE_DATASET null
+WRITER_TYPE NULL
+WRITER_KEYWORD NULL_DEST
+NULL_DEST_DATASET null
+#! END_WB_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)roombasimulator.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+LOG_MAX_PRECISION Yes
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+LOG_FILTER_MASK -1
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME roombasimulator
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+
+INCLUDE [ if {[info exists env(FME_TEMP)] && [file isdirectory $env(FME_TEMP)]} {set gVisualizerTemp $env(FME_TEMP)}  elseif {[info exists env(TEMP)] && [file isdirectory $env(TEMP)]}  {set gVisualizerTemp $env(TEMP)}  elseif { $tcl_platform(platform) == "unix" } {set gVisualizerTemp "/tmp"} else {set gVisualizerTemp c:};  regsub -all {[ ,&]} {$(WORKSPACE_NAME)} {_} wsname; set gVisualizerTemp $gVisualizerTemp/${wsname}_[clock format [clock seconds] -format %H%M%S];  puts "MACRO WORKSPACE_TEMP_DIR $gVisualizerTemp"; 
+MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/inspector.ffs
+MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
+MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+
+Tcl2 proc Creator_CoordSysRemover {} {   global FME_CoordSys;   set FME_CoordSys {}; }
+MACRO Creator_XML     NOT_ACTIVATED
+MACRO Creator_CLASSIC NOT_ACTIVATED
+MACRO Creator_2D3D    2D_GEOMETRY
+MACRO Creator_COORDS  0 0
+INCLUDE [ if { {2D Coordinate List} == {Geometry Object} } {            puts {MACRO Creator_XML *} } ]
+INCLUDE [ if { {2D Coordinate List} == {2D Coordinate List} } {            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+INCLUDE [ if { {2D Coordinate List} == {3D Coordinate List} } {            puts {MACRO Creator_2D3D 3D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+INCLUDE [ if { {2D Coordinate List} == {2D Min/Max Box} } {            set comment {                We need to turn the COORDS which are                    minX minY maxX maxY                into a full polygon list of coordinates            };            set splitCoords [split [string trim {0 0}]];            if { [llength $splitCoords] > 4} {               set trimmedCoords {};               foreach item $splitCoords { if { $item != {} } {lappend trimmedCoords $item} };               set splitCoords $trimmedCoords;            };            if { [llength $splitCoords] != 4 } {                error {Creator: Coordinate list is expected to be a space delimited list of four numbers as 'minx miny maxx maxy' - `0 0' is invalid};            };            set minX [lindex $splitCoords 0];            set minY [lindex $splitCoords 1];            set maxX [lindex $splitCoords 2];            set maxY [lindex $splitCoords 3];            puts "MACRO Creator_COORDS $minX $minY $minX $maxY $maxX $maxY $maxX $minY $minX $minY";            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+FACTORY_DEF $(Creator_XML) CreationFactory    FACTORY_NAME Creator_XML_Creator    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______        @Geometry(FROM_ENCODED_STRING,<Unused>)
+FACTORY_DEF $(Creator_CLASSIC) CreationFactory    FACTORY_NAME Creator_CLASSIC_Creator    $(Creator_2D3D) $(Creator_COORDS)    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______
+FACTORY_DEF * TeeFactory    FACTORY_NAME Creator_Cloner    INPUT FEATURE_TYPE _____CREATED______    NUMBER_OF_COPIES 1    COPY_NUMBER_ATTRIBUTE "_creation_instance"    OUTPUT FEATURE_TYPE Creator_CREATED        @Tcl2(Creator_CoordSysRemover)        @CoordSys()        fme_feature_type Creator
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE Creator_CREATED ATTR _num_moves 0 ATTR _num_spins 0 ATTR _slope_x 1 ATTR _slope_y 0 ATTR _rotation_angle 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "RoombaSimulator LegoMindstormsMover_Input Input Collector"   INPUT FEATURE_TYPE AttributeCreator_OUTPUT   OUTPUT FEATURE_TYPE RoombaSimulator_LegoMindstormsMover_Input
+MACRO RoombaSimulator_WORKSPACE_NAME RoombaSimulator
+MACRO $(RoombaSimulator_WORKSPACE_NAME)_XFORMER_NAME RoombaSimulator
+MACRO $(RoombaSimulator_WORKSPACE_NAME)_TRANSFORMER_GROUP 
+MACRO $(RoombaSimulator_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
+MACRO $(RoombaSimulator_WORKSPACE_NAME)_SUB_DOC_NAME RoombaSimulator
+MACRO $(RoombaSimulator_WORKSPACE_NAME)_MAX_PROXIMITY_BEFORE_TURN 20
+MACRO $(RoombaSimulator_WORKSPACE_NAME)__NUM_MOVES <at>Value<openparen>_num_moves<closeparen>
+MACRO $(RoombaSimulator_WORKSPACE_NAME)_MAX_MOVES 7
+MACRO $(RoombaSimulator_WORKSPACE_NAME)__SLOPE_X <at>Value<openparen>_slope_x<closeparen>
+MACRO $(RoombaSimulator_WORKSPACE_NAME)__SLOPE_Y <at>Value<openparen>_slope_y<closeparen>
+MACRO $(RoombaSimulator_WORKSPACE_NAME)__ROTATION_ANGLE <at>Value<openparen>_rotation_angle<closeparen>
+MACRO $(RoombaSimulator_WORKSPACE_NAME)_RATIO_DEGRESS_OF_MOTOR_ROTATION_TO_SPIN 6.05
+MACRO $(RoombaSimulator_WORKSPACE_NAME)__NUM_SPINS <at>Value<openparen>_num_spins<closeparen>
+DEFAULT_MACRO RoombaSimulator_WORKSPACE_NAME ""
+INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(RoombaSimulator_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(RoombaSimulator_WORKSPACE_NAME)}]
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsMover_Input1432856822 Input Splitter"   INPUT FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsMover_Input"   OUTPUT FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsMover_Input" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,_num_moves,$($(RoombaSimulator_WORKSPACE_NAME)__NUM_MOVES),_slope_x,$($(RoombaSimulator_WORKSPACE_NAME)__SLOPE_X),_slope_y,$($(RoombaSimulator_WORKSPACE_NAME)__SLOPE_Y),_rotation_angle,$($(RoombaSimulator_WORKSPACE_NAME)__ROTATION_ANGLE),_num_spins,$($(RoombaSimulator_WORKSPACE_NAME)__NUM_SPINS), FEATURE_TYPE)"
+# -------------------------------------------------------------------------
+
+INCLUDE [ if {[string equal {<Unused>} {Color}]} {    puts {MACRO SENSOR1_ARGS <Unused>,<Unused>,<Unused>,<Unused>,<Unused>,<Unused>}; } elseif {[string equal {<Unused>} {IR}]} {    puts {MACRO SENSOR1_ARGS <Unused>,<Unused>,<Unused>,<Unused>,<Unused>,<Unused>} } elseif {[string equal {<Unused>} {Touch}]} {    puts {MACRO SENSOR1_ARGS <Unused>,<Unused>,<Unused>,<Unused>} } else {    puts {MACRO SENSOR1_ARGS None}; }; if {[string equal {<Unused>} {Color}]} {    puts {MACRO SENSOR2_ARGS <Unused>,<Unused>,<Unused>,<Unused>,<Unused>,<Unused>}; } elseif {[string equal {<Unused>} {IR}]} {    puts {MACRO SENSOR2_ARGS <Unused>,<Unused>,<Unused>,<Unused>,<Unused>,<Unused>} } elseif {[string equal {<Unused>} {Touch}]} {    puts {MACRO SENSOR2_ARGS <Unused>,<Unused>,<Unused>,<Unused>} } else {    puts {MACRO SENSOR2_ARGS None}; }; if {[string equal {IR} {Color}]} {    puts {MACRO SENSOR3_ARGS IR,,,<Unused>,<Unused>,<Unused>}; } elseif {[string equal {IR} {IR}]} {    puts {MACRO SENSOR3_ARGS IR,,,_proximity,,} } elseif {[string equal {IR} {Touch}]} {    puts {MACRO SENSOR3_ARGS IR,,,<Unused>} } else {    puts {MACRO SENSOR3_ARGS None}; }; if {[string equal {<Unused>} {Color}]} {    puts {MACRO SENSOR4_ARGS <Unused>,<Unused>,<Unused>,<Unused>,<Unused>,<Unused>}; } elseif {[string equal {<Unused>} {IR}]} {    puts {MACRO SENSOR4_ARGS <Unused>,<Unused>,<Unused>,<Unused>,<Unused>,<Unused>} } elseif {[string equal {<Unused>} {Touch}]} {    puts {MACRO SENSOR4_ARGS <Unused>,<Unused>,<Unused>,<Unused>} } else {    puts {MACRO SENSOR4_ARGS None}; }; if {[string equal {NO} {YES}]} {    puts {MACRO MOTORA_ARGS NO,<Unused>,<Unused>,<Unused>,No}; } else {    puts {MACRO MOTORA_ARGS NO}; }; if {[string equal {NO} {YES}]} {    puts {MACRO MOTORB_ARGS NO,<Unused>,<Unused>,<Unused>,No}; } else {    puts {MACRO MOTORB_ARGS NO}; }; if {[string equal {NO} {YES}]} {    puts {MACRO MOTORC_ARGS NO,<Unused>,<Unused>,<Unused>,No}; } else {    puts {MACRO MOTORC_ARGS NO}; }; if {[string equal {NO} {YES}]} {    puts {MACRO MOTORD_ARGS NO,<Unused>,<Unused>,<Unused>,No}; } else {    puts {MACRO MOTORD_ARGS NO}; }; ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsPropertyExtractor    INPUT  FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsMover_Input"    OUTPUT FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsPropertyExtractor_OUTPUT"       @LegoMindstorms(SENSE,$(SENSOR1_ARGS),$(SENSOR2_ARGS),$(SENSOR3_ARGS),$(SENSOR4_ARGS),$(MOTORA_ARGS),$(MOTORB_ARGS),$(MOTORC_ARGS),$(MOTORD_ARGS))
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(RoombaSimulator_WORKSPACE_NAME)_TestFilter    INPUT  FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsPropertyExtractor_OUTPUT"    OUTPUT FEATURE_TYPE $(RoombaSimulator_WORKSPACE_NAME)_TestFilter_TESTFILTERINPUTLINE_0
+
+FACTORY_DEF * TestFactory FACTORY_NAME $(RoombaSimulator_WORKSPACE_NAME)_TestFilter_TestFactory_0 INPUT FEATURE_TYPE $(RoombaSimulator_WORKSPACE_NAME)_TestFilter_TESTFILTERINPUTLINE_0 TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_num_moves<closeparen>,$(RoombaSimulator_WORKSPACE_NAME)_TestFilter) >= @EvaluateExpression(FDIV,STRING_ENCODED,$($(RoombaSimulator_WORKSPACE_NAME)_MAX_MOVES),$(RoombaSimulator_WORKSPACE_NAME)_TestFilter) ENCODED BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR <Unused> OUTPUT PASSED FEATURE_TYPE $(RoombaSimulator_WORKSPACE_NAME)_TestFilter_ReachedMaxMoves OUTPUT FAILED FEATURE_TYPE $(RoombaSimulator_WORKSPACE_NAME)_TestFilter_TESTFILTERINPUTLINE_1
+FACTORY_DEF * TestFactory FACTORY_NAME $(RoombaSimulator_WORKSPACE_NAME)_TestFilter_TestFactory_1 INPUT FEATURE_TYPE $(RoombaSimulator_WORKSPACE_NAME)_TestFilter_TESTFILTERINPUTLINE_1 TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_proximity<closeparen>,$(RoombaSimulator_WORKSPACE_NAME)_TestFilter) <= @EvaluateExpression(FDIV,STRING_ENCODED,$($(RoombaSimulator_WORKSPACE_NAME)_MAX_PROXIMITY_BEFORE_TURN),$(RoombaSimulator_WORKSPACE_NAME)_TestFilter) ENCODED BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR <Unused> OUTPUT PASSED FEATURE_TYPE $(RoombaSimulator_WORKSPACE_NAME)_TestFilter_CloseToWall OUTPUT FAILED FEATURE_TYPE $(RoombaSimulator_WORKSPACE_NAME)_TestFilter_TESTFILTERINPUTLINE_2
+FACTORY_DEF * TeeFactory FACTORY_NAME $(RoombaSimulator_WORKSPACE_NAME)_TestFilter_Move INPUT FEATURE_TYPE $(RoombaSimulator_WORKSPACE_NAME)_TestFilter_TESTFILTERINPUTLINE_2 OUTPUT FEATURE_TYPE $(RoombaSimulator_WORKSPACE_NAME)_TestFilter_Move
+# -------------------------------------------------------------------------
+
+INCLUDE [ if {[string equal {STRAIGHT} {STRAIGHT}]} {    if {[string equal {TIME} {TIME}]} {       puts {MACRO MOVE_ARGS STRAIGHT,50,"TIME",1};    }    else {       puts {MACRO MOVE_ARGS STRAIGHT,50,"TIME",<Unused>};    } } elseif {[string equal {STRAIGHT} {TURN}]} {    if {[string equal {TIME} {TIME}]} {       puts {MACRO MOVE_ARGS STRAIGHT,50,<Unused>,<Unused>,"TIME",1};    }    else {       puts {MACRO MOVE_ARGS STRAIGHT,50,<Unused>,<Unused>,"TIME",<Unused>};    } } elseif {[string equal {STRAIGHT} {SPIN}]} {    if {[string equal {TIME} {TIME}]} {       puts {MACRO MOVE_ARGS STRAIGHT,50,<Unused>,"TIME",1};    }    else {       puts {MACRO MOVE_ARGS STRAIGHT,50,<Unused>,"TIME",<Unused>};    } } ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsVehicleMover_2    INPUT  FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_TestFilter_Move"    OUTPUT FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsVehicleMover_2_OUTPUT"       @LegoMindstorms(MOVE,C,B,No,No,$(MOVE_ARGS))
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME $(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsVehicleMover_2_OUTPUT" ATTR _num_moves <at>Evaluate<openparen><at>Value<openparen>_num_moves<closeparen>+1<closeparen> ATTR operation MOVE    OUTPUT OUTPUT FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_OUTPUT" 
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TestFactory    FACTORY_NAME $(RoombaSimulator_WORKSPACE_NAME)_CoordinateExtractor    INPUT  FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_OUTPUT"    TEST @Dimension() == 2    OUTPUT PASSED FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_CoordinateExtractor_OUTPUT"         "_x" @Coordinate(x,"-1",FLATTEN_AGGREGATE)         "_y" @Coordinate(y,"-1",FLATTEN_AGGREGATE)    OUTPUT FAILED FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_CoordinateExtractor_OUTPUT"         "_x" @Coordinate(x,"-1",FLATTEN_AGGREGATE)         "_y" @Coordinate(y,"-1",FLATTEN_AGGREGATE)
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * VertexCreatorFactory    FACTORY_NAME $(RoombaSimulator_WORKSPACE_NAME)_VertexCreator    INPUT  FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_CoordinateExtractor_OUTPUT"    MODE ADD    INDEX <Unused>    CONTINUE_ON_ERROR YES    XVAL "@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>_x<closeparen>+<at>Value<openparen>_slope_x<closeparen>,$(RoombaSimulator_WORKSPACE_NAME)_VertexCreator)"    YVAL "@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>_y<closeparen>+<at>Value<openparen>_slope_y<closeparen>,$(RoombaSimulator_WORKSPACE_NAME)_VertexCreator)"    OUTPUT OUTPUT FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_VertexCreator_OUTPUT"
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME $(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_2 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_TestFilter_CloseToWall" ATTR _amount_to_rotate <at>Evaluate<openparen><at>rand<openparen><closeparen>*360<closeparen>    OUTPUT OUTPUT FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_2_OUTPUT" 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME $(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_3 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_2_OUTPUT" ATTR _rotation_angle <at>Evaluate<openparen><at>Value<openparen>_rotation_angle<closeparen><space>+<space><at>Value<openparen>_amount_to_rotate<closeparen><closeparen> ATTR _rotation_angle <at>Evaluate<openparen><at>Value<openparen>_rotation_angle<closeparen><space>-<space><at>int<openparen><at>Value<openparen>_rotation_angle<closeparen><space><solidus><space>360<closeparen><space>*<space>360<closeparen> ATTR _slope_x <at>Evaluate<openparen><at>cos<openparen><at>degToRad<openparen><at>Value<openparen>_rotation_angle<closeparen><closeparen><closeparen><closeparen> ATTR _slope_y <at>sin<openparen><at>degToRad<openparen><at>Value<openparen>_rotation_angle<closeparen><closeparen><closeparen> ATTR _num_spins <at>Evaluate<openparen><at>Value<openparen>_num_spins<closeparen>+1<closeparen> ATTR _direction "FME_CONDITIONAL:DEFAULT_VALUE'LEFT'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>_amount_to_rotate<closeparen> > 180'RIGHT'FME_NUM_CONDITIONS2___" ATTR _amount_to_rotate "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>_amount_to_rotate<closeparen> > 180'<at>Evaluate<openparen>360-<at>Value<openparen>_amount_to_rotate<closeparen><closeparen>'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_3_OUTPUT" 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME $(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_7 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_3_OUTPUT" ATTR operation SPIN<space><at>Value<openparen>_direction<closeparen><space><at>Value<openparen>_amount_to_rotate<closeparen>    OUTPUT OUTPUT FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_7_OUTPUT" 
+# -------------------------------------------------------------------------
+
+INCLUDE [ if {[string equal {SPIN} {STRAIGHT}]} {    if {[string equal {ROTATIONS} {TIME}]} {       puts {MACRO MOVE_ARGS SPIN,50,"ROTATIONS",<Unused>};    }    else {       puts {MACRO MOVE_ARGS SPIN,50,"ROTATIONS",@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>_amount_to_rotate<closeparen>*$($(RoombaSimulator_WORKSPACE_NAME)_RATIO_DEGRESS_OF_MOTOR_ROTATION_TO_SPIN$encode),$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsVehicleMover)};    } } elseif {[string equal {SPIN} {TURN}]} {    if {[string equal {ROTATIONS} {TIME}]} {       puts {MACRO MOVE_ARGS SPIN,50,@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_direction<closeparen>,$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsVehicleMover),<Unused>,"ROTATIONS",<Unused>};    }    else {       puts {MACRO MOVE_ARGS SPIN,50,@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_direction<closeparen>,$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsVehicleMover),<Unused>,"ROTATIONS",@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>_amount_to_rotate<closeparen>*$($(RoombaSimulator_WORKSPACE_NAME)_RATIO_DEGRESS_OF_MOTOR_ROTATION_TO_SPIN$encode),$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsVehicleMover)};    } } elseif {[string equal {SPIN} {SPIN}]} {    if {[string equal {ROTATIONS} {TIME}]} {       puts {MACRO MOVE_ARGS SPIN,50,@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_direction<closeparen>,$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsVehicleMover),"ROTATIONS",<Unused>};    }    else {       puts {MACRO MOVE_ARGS SPIN,50,@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_direction<closeparen>,$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsVehicleMover),"ROTATIONS",@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>_amount_to_rotate<closeparen>*$($(RoombaSimulator_WORKSPACE_NAME)_RATIO_DEGRESS_OF_MOTOR_ROTATION_TO_SPIN$encode),$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsVehicleMover)};    } } ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsVehicleMover    INPUT  FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_7_OUTPUT"    OUTPUT FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsVehicleMover_OUTPUT"       @LegoMindstorms(MOVE,C,B,No,No,$(MOVE_ARGS))
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME $(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_4 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsVehicleMover_OUTPUT"    INPUT  FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_VertexCreator_OUTPUT" ATTR _operation_index <at>Evaluate<openparen><at>Value<openparen>_num_moves<closeparen>+<at>Value<openparen>_num_spins<closeparen>-1<closeparen>    OUTPUT OUTPUT FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_4_OUTPUT" 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME $(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_5 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_4_OUTPUT" ATTR _operation_attr_name _operations<opencurly><at>Value<openparen>_operation_index<closeparen><closecurly>    OUTPUT OUTPUT FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_5_OUTPUT" 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME $(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_6 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_5_OUTPUT" ATTR <at>Value<openparen>_operation_attr_name<closeparen> <at>Value<openparen>operation<closeparen>    OUTPUT OUTPUT FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_6_OUTPUT" 
+FACTORY_DEF * BranchingFactory   TARGET_FACTORY "$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsMover_Input1432856822 Input Splitter"   FACTORY_NAME "Loop to $(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsMover_Input1432856822 Input Splitter"   MAXIMUM_COUNT -1   INPUT FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_AttributeCreator_6_OUTPUT"   OUTPUT PASSED FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_LegoMindstormsMover_Input"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(RoombaSimulator_WORKSPACE_NAME)_Output1432856822 Output Collector"   INPUT FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_TestFilter_ReachedMaxMoves"   OUTPUT FEATURE_TYPE "$(RoombaSimulator_WORKSPACE_NAME)_Output"
+INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(RoombaSimulator_WORKSPACE_NAME))}]
+FACTORY_DEF * TeeFactory   FACTORY_NAME "RoombaSimulator Output Output Renamer/Nuker"   INPUT FEATURE_TYPE RoombaSimulator_Output   OUTPUT FEATURE_TYPE RoombaSimulator_Output
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_Logger    INPUT  FEATURE_TYPE RoombaSimulator_Output    OUTPUT FEATURE_TYPE Logger_LOGGED                  @Log("Logger: Feature is:","20","20")                  @FeatureType(Logger_LOGGED)
+
+# -------------------------------------------------------------------------
+
+# Set the directive to add all the meta-attributes to the features.
+# We do this so users see all possible information in the viewed
+# features.
+
+READER_META_ATTRIBUTES fme_feature_type fme_dataset fme_basename
+# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
+DEFAULT_MACRO WORKSPACE_TEMP_DIR
+INCLUDE [         set grpByAttrs {};         if { [string length $grpByAttrs] > 0 } {             if { [string first "@EvaluateExpression" $grpByAttrs] == 0 } {                 puts "MACRO CATMAC _$grpByAttrs" ;             } else {                set catter "" ;                set comma "" ;                foreach attr $grpByAttrs {                    set catter "$catter$comma@Value(\"$attr\")" ;                    set comma ",_," ;                } ;                puts "MACRO CATMAC _@Concatenate($catter)" ;             }         }         else {             puts "MACRO CATMAC " ;         };         set safeName "[regsub -all {[^a-zA-Z0-9]} {Inspector} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";         puts "MACRO SAFE_FFS_NAME $safeName";         ]
+# Make the temporary directory that the FFS files will live in.
+FACTORY_DEF * CreationFactory      FACTORY_NAME Inspector_DirCreator      OUTPUT FEATURE_TYPE __nukeme__          @Tcl2("catch {file mkdir {$(WORKSPACE_TEMP_DIR)}}")
+FACTORY_DEF * TeeFactory    FACTORY_NAME Inspector_DirCreatorCleanerUpper    INPUT FEATURE_TYPE __nukeme__
+# Send raster, point cloud and vector features down different paths to prepare
+# them for viewing
+
+FACTORY_DEF * TestFactory    FACTORY_NAME Inspector_FeatureDirector    INPUT  FEATURE_TYPE Logger_LOGGED    TEST &fme_type == "fme_raster"    OUTPUT FAILED FEATURE_TYPE Inspector___NotRasterFeatures___    OUTPUT PASSED FEATURE_TYPE Inspector___RasterFeatures___
+FACTORY_DEF * TestFactory    FACTORY_NAME Inspector___FeatureDirector1    INPUT FEATURE_TYPE Inspector___NotRasterFeatures___    TEST &fme_type == "fme_point_cloud"    OUTPUT FAILED FEATURE_TYPE Inspector___VectorFeatures___    OUTPUT PASSED FEATURE_TYPE Inspector___PointCloudFeatures___
+# Vector features simply may get their colors overridden
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME Inspector_VectorSetterUpper    INPUT FEATURE_TYPE Inspector___VectorFeatures___    OUTPUT FEATURE_TYPE __viewme__
+# Point Cloud Features Might Need to be thinned
+
+# Note that we don't call the ThinPointCloud function directly, but rather
+# do it through TCL. This should allow this transformer to be used with a
+# Desktop license, even though ThinPointCloud requires Professional.
+
+Tcl2 proc Inspector_5ca0aeae_e7ae_40ce_af7c_24458a6dc93611_thinPointCloud {} {    if {[string equal {NO_THINNING} {KEEPNPOINT}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {MAXNUMPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {FIRSTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {LASTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME Inspector___PointCloudThinner    INPUT FEATURE_TYPE Inspector___PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("Inspector_5ca0aeae_e7ae_40ce_af7c_24458a6dc93611_thinPointCloud")
+Tcl2 proc Inspector_5ca0aeae_e7ae_40ce_af7c_24458a6dc93611_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME Inspector_RasterSetterUpper    INPUT FEATURE_TYPE Inspector___RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("Inspector_5ca0aeae_e7ae_40ce_af7c_24458a6dc93611_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
+# Now route all the features into the recorder, changing their
+# feature type to the transformer name so that they view nicely
+# Inspector_5ca0aeae_e7ae_40ce_af7c_24458a6dc93611_VIS_FEAT_TYPE changes the feature types
+# of the features being visualized.
+
+DEFAULT_MACRO Inspector_5ca0aeae_e7ae_40ce_af7c_24458a6dc93611_VIS_FEAT_TYPE Inspector$(CATMAC)
+DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
+DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
+# [PR#45549] The Data Inspector will limit the maximum number of features
+# it reads on WIN32, so we will correspondingly limit the number of
+# features we record here using the MAX_FEATURES_TO_RECORD directive.
+
+FACTORY_DEF * RecorderFactory    FACTORY_NAME Inspector_Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($(Inspector_5ca0aeae_e7ae_40ce_af7c_24458a6dc93611_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA _creation_instance,varchar<openparen>255<closeparen>,_num_moves,varchar<openparen>255<closeparen>,_num_spins,varchar<openparen>255<closeparen>,_slope_x,varchar<openparen>255<closeparen>,_slope_y,varchar<openparen>255<closeparen>,_rotation_angle,varchar<openparen>255<closeparen>,_proximity,varchar<openparen>255<closeparen>    MODE RECORD    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * CreationFactory   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS $theFile & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; ")
+FACTORY_DEF * TeeFactory   INPUT FEATURE_TYPE __NUKEME__
